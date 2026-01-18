@@ -13,8 +13,17 @@
     --dairy: #fcfcfc;
 }
 
-.nav-bar-list {
+.main-header {
+    background-color: var(--white);
+    color: var(--navy-blue);
+}
+
+.nav-bar-list li{
     font-weight: 500;
+}
+
+.nav-bar-list li:hover{
+    color:
 }
 
 .page-title {
@@ -60,9 +69,10 @@ button {
     color: var(--white);
 }
 
-.main-header {
-    background-color: var(--white);
+.order-button:hover {
+    background-color: var(--ocean);
 }
+
 
 .motto-section {
     background-color: var(--navy-blue);
@@ -102,10 +112,18 @@ a {
     color: var(--iris);
 }
 
-.logo-text-right {
+.logo-text-left-header {
     color: var(--iris);
 }
 
+.logo-text-right-header {
+    color: var(--navy-blue);
+}
+
 .logo-text-left-footer {
+    color: var(--iris);
+}
+
+.logo-text-right-footer {
     color: var(--white);
 } 
