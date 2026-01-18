@@ -1,0 +1,111 @@
+:root {
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+    --navy-blue: #2e2f42;
+    --green: #31d0aa;
+    --slate: #434455;
+    --light-slate: #8e8f99;
+    --cornflower: #e7e8fc;
+    --cloud: #f4f4fd;
+    --navy-blue-modal: #2e2f42;
+    --grey: #2e2f42;
+    --white: #ffffff;
+    --dairy: #fcfcfc;
+}
+
+.nav-bar-list {
+    font-weight: 500;
+}
+
+.page-title {
+    color: var(--white);
+    font-weight: 900;
+    font-size: 56px;
+    letter-spacing: 2%;
+    line-height: 1.07;
+}
+
+.section-title {
+    font-weight: 900;
+    font-size: 36px;
+    letter-spacing: 2%;
+}
+
+.article-title, .image-caption {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 2%;
+}
+
+body {
+    color: #434455;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.order-button {
+    background-color: var(--iris);
+    color: var(--white);
+}
+
+.main-header {
+    background-color: var(--white);
+}
+
+.motto-section {
+    background-color: var(--navy-blue);
+}
+
+.features-section {
+    color: var(--white);
+}
+
+.team-section {
+    background-color: var(--cloud);
+}
+
+.team-member-card {
+    background-color: var(--white);
+}
+
+.portfolio-section {
+    background-color: var(--white);
+}
+
+.main-footer {
+    background-color: var(--navy-blue);
+    color: var(--white);
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo-link {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.logo-link:active {
+    color: var(--iris);
+}
+
+.logo-text-right {
+    color: var(--iris);
+}
+
+.logo-text-left-footer {
+    color: var(--white);
+} 
